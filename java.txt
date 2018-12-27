@@ -1,0 +1,20 @@
+<script language="javascript">
+function validate()
+{
+	var f=f1.firstname.value;
+	var l=f1.lastname.value;
+	var d=f1.dateofbirth.value;
+	var n=f1.nationality.value;
+	var m=f1.mobileno.value;
+	var e=f1.email.value;
+	var s=f1.school.value;
+	var c=f1.college.value;
+	var ss=f1.ssc.value;
+	var i=fl.inter.value;
+	var em=f1.eamcet.value;
+	var im=f1.image.value;
+    if(f==''||l==''||d==''||n==''||m==''||e==''||s==''||c==''||ss==''||i==''||em==''||im=='')
+	{
+		alert("Please enter all details");
+	}
+}	
